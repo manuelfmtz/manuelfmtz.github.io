@@ -11,9 +11,11 @@ body{
 	background: #ffffff;
 	margin: 0 auto;
 	width: 69%;
+
 	border-top: 1px solid #000000;
 	border-left: 1px solid #000000;
 	border-right: 1px solid #000000;
+	border-color: #AEAEAE;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-top: 30px;
@@ -68,12 +70,13 @@ p.parrafos{
 
 
 .container2{
-	background: #ffff00;
+	background: #ffffff;
 	margin: 0 auto;
 	width: 69%;
 	height: 900px;
 	
 	border: 1px solid #000000;
+	border-color: #AEAEAE;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 30px;
@@ -83,22 +86,19 @@ p.parrafos{
 }
 
 .contdescrip{
+	border: 0px solid #000000;
 	background: #ffffff;
 	display: flex;
 	padding: 0px;
 	flex-direction: column;
 
 
-
+/*Div del icono de la flecha hacia abajo*/
 }
 
-.space1{
-	border: 1px solid #000000;
-	width: 12px;
-}
 
 .imagenFlecha{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	margin-left: 0px;
 	margin-right: 0px;
 	padding-left: 0px;
@@ -116,15 +116,28 @@ p.parrafos{
 	border: 0px solid #000000;
 }
 
+.imagenFlecha2 img{
+	width: 35px;
+	height: 35px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid #000000;
+}
+
+
+
+
+
+
 .imagenFlecha div{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	width: 600px;
 	height: 33px;
 	background: #373737;
 }
 
 .imagenFlecha div p{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	margin: 5px;
 	font-family: Calibri, Arial;
 	font-weight: bold;
@@ -132,12 +145,90 @@ p.parrafos{
 
 }
 
+/*Div del subtema Employment*/
+.informacion{
+	border: 0px solid #000000;
+	width: 635px;
+	height: 200px;
+}
+
+.seccion1{
+	border: 0px solid #000000;
+	width: 635px;
+	height: 43px;
+	display: flex;
+	flex-direction: row;
+}
+
+.seccion1 img{
+	border: 0px solid #000000;
+	width: 20px;
+	height: 20px;
+	padding-top: 16px;
+	padding-left: 2px;
+
+}
 
 
-/*Div del icono de la flecha hacia abajo*/
-/*Div de el subtema EMPLOYMENT*/
+
+
+.seccion1 p{
+	border: 0px solid #000000;
+	width: 400px;
+	height: 25px;
+	margin-top: 15px;
+	margin-left: 5px;
+	font-weight: bold;
+	font-family: Calibri, Arial;
+	font-size: 20px;
+}
+
+.fecha{
+	border: 0px solid #000000;
+	width: 200px;
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fecha p{
+	border: 0px solid #000000;
+	width: 120px;
+	height: 20px;
+	color: #A8A9A4;
+
+}
+
+.seccion2{
+	border: 0px solid #000000;
+	width: 633px;
+	height: 25px;
+}
+
+.seccion2 p{
+	border: 0px solid #000000;
+	margin-top: 0px;
+	margin-left: 30px;
+	width: 400px;
+	color: #A8A9A4;
+}
+
+.seccion3{
+	border: 0px solid #000000;
+	
+}
+
+.seccion3 p{
+	margin-left: 4px;
+}
+
+
+
+
+
+/*Div de el subtema  PROGRAMMING*/
 .estadist{
-
+	border: 0px solid #000000;
 	padding-top: 0;
 	padding-right: 0;
 	padding-left: 15px;
@@ -155,19 +246,19 @@ p.parrafos{
 
 }
 .lenguajes{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	font-size: 13px;
 	width: 200px;
 }
 
 .lenguajes p{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	padding-left: 0;
 
 }
 
 .word, .php, .html, .css, .sql{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -236,13 +327,13 @@ div.sql{
 }
 
 .space{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	width: 215px;
 	height: 40px;
 }
 
 .graphic1{
-	border: 1px solid #00000f;
+	border: 0px solid #00000f;
 	background: #ffffff;
 	width: 215px;
 	height: 25px;
@@ -255,7 +346,7 @@ div.sql{
 }
 
 .cuadrado1, .cuadrado2, .cuadrado3, .cuadrado4, .cuadrado5{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	margin: 3px;
 	padding-top: 2px;
 	border-bottom: 1px;
@@ -288,26 +379,26 @@ div.sql{
 }
 
 .c1{
-	border: 1px solid #0000ff;
+	border: 0px solid #0000ff;
 	height: 20px;
 	display: flex;
 	padding-bottom: 0px;
 
 }
 .c1 p{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	margin: 2px;
 	padding: 0;
 }
 
 .container3{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .circulo1, .circulo2, .circulo3, .circulob{
-	border: 1px solid #000000;
+	border: 0px solid #000000;
 	padding-top: 2px;
 	padding-left: 1px;
 	border-bottom: 1px;
@@ -317,9 +408,6 @@ div.sql{
 	height: 15px;
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
-
-
-
 	display: flex;
 
 	
@@ -339,6 +427,7 @@ div.sql{
 }
 .circulob{
 	background: #ffffff;
+	border: 1px solid #AEAEAE;
 
 }
 
