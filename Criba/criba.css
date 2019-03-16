@@ -1,0 +1,81 @@
+
+.contenedorP{
+	border: 0px solid #000000;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+
+
+}
+div.izquierda{
+    border: 1px solid #000000;
+	width: 30%;
+    display: inline-block;
+    background-color:#FFB745;
+    padding: 1em;
+    margin: 0px;
+}
+
+div.derecha{   
+     border: 1px solid #000000;
+    width: 30%;
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+    background-color:#5CC5EF;
+    margin: 0px;
+    padding: 1em; 
+    margin-left: 5px;
+}
+
+/* Estilos que tendrán los botones que se creen en el DOM clase de nombre celda*/
+.celda{
+	background-color: #E7552C;
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    /*text-align: center;*/
+    margin-bottom: 0.3em;
+    /*margin-right: 0.3em;*/
+    margin-left: 0.3em;
+
+}
+
+h3{
+ color: aliceblue;
+ text-align: center;  
+
+}
+
+.divBtnDerecha{
+    border: 1px solid #000000;
+    margin-bottom: 2%;
+    padding: 0px;
+    height: 5%;
+    width: 50%;
+    display: flex;
+}
+
+/*.cuadroColor{
+    border: 1px solid #000000;
+    height: 100%;
+    width: 1;
+    margin: 0px;
+    padding: 0px;
+
+}*/
+
+.buttonIzq{
+
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	padding: 1px;
+
+
+}
+
+
